@@ -2,6 +2,9 @@
 *= require bootstrap.min
 */
 
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
 @import 'variables';
 @import 'colors';
 

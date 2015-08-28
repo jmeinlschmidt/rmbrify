@@ -46,13 +46,9 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 
 # Use SCSS for stylesheets
-gem 'sass-rails'
+gem 'sass-rails', '>= 3.2'
 
-#gem 'less-rails'
-
-#gem 'less-rails-bootstrap'
-
-gem 'twitter-bootstrap-rails'
+gem 'bootstrap-sass', '~> 3.3.5'
 
 group :production do
   gem 'unicorn-rails'
