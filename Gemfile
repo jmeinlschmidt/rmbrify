@@ -52,7 +52,7 @@ gem 'sass-rails'
 
 #gem 'less-rails-bootstrap'
 
-#gem 'twitter-bootstrap-rails'
+gem 'twitter-bootstrap-rails'
 
 group :production do
   gem 'unicorn-rails'
