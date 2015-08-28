@@ -1,0 +1,95 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import 'variables';
+@import 'colors';
+
+// #header-container
+	#header-container {
+		width: 100%;
+		height: 150px;
+		position: relative;
+
+		.line {
+			width: 100%;
+			bottom: ($height-menu - 1)/2;
+			border-bottom: 1px solid $border-color;
+			position: absolute;
+		}
+	}
+
+	// #menu
+		#menu {
+				bottom: 0px;
+				position: absolute;
+				border: 1px solid $border-color;
+				background-color: $menu;
+				padding: 0 0 0 0;
+			}
+
+		@media (min-width: 1400px) {
+			#menu {
+				width: $width1;
+				margin-left: $width1-margin;
+			}
+		}
+
+		@media (min-width: 1000px) and (max-width: 1399px) {
+			#menu {
+				width: $width2;
+				margin-left: $width2-margin;
+			}
+		}
+
+		.menu-item {
+			height: $height-menu;
+			line-height: $height-menu;
+			text-align: center;
+
+			&:not(:last-of-type) {
+				border-right: 1px solid $border-color;
+			}
+
+			&:hover {
+				cursor: pointer;
+			}
+
+			&:hover:not(.selected) {
+				cursor: pointer;
+				background-color: $menu-hover;
+				color: $menu-font-hover;
+			}
+		}
+
+		.selected {
+			background-color: $menu-selected;
+			color: $menu-font-selected;
+		}
+
+// #body-container
+	#body-container {
+		position: relative;
+		width: 100%;
+	}
+
+// #content-container
+	#content-container {
+		margin-top: 8%;
+		position: relative;
+		color: $font-color-body;
+	}
+
+	@media (min-width: 1400px) {
+		#content-container {
+			width: $width2;
+			margin-left: $width2-margin;
+		}
+	}
+
+	@media (min-width: 920px) and (max-width: 1399px) {
+		#content-container {
+			width: $width3;
+			margin-left: $width3-margin;
+		}
+	}
