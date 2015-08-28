@@ -249,7 +249,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap-sass (~> 3.3.5)
+  bootstrap-sass
   byebug
   capistrano (~> 3.0)
   capistrano-rails
@@ -272,7 +272,7 @@ DEPENDENCIES
   rails (= 4.2.0)
   rspec-its
   rspec-rails (~> 3.2)
-  sass-rails (>= 3.2)
+  sass-rails
   sdoc (~> 0.4.0)
   shoulda-matchers (= 2.5.0)
   therubyracer
