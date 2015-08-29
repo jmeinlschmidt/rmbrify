@@ -44,7 +44,7 @@ gem 'coffee-rails', '~> 4.1.0'
 
 gem 'sass-rails'
 
-gem 'bootstrap-sass'
+#gem 'bootstrap-sass'
 
 group :production do
   gem 'unicorn-rails'
