@@ -7,11 +7,11 @@
 // Glyphicons !important
 	@font-face {
 		font-family: 'Glyphicons Halflings';
-		src: font-path('glyphicons-halflings-regular.eot');
-		src: font-path('glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), 
-				 font-path('glyphicons-halflings-regular.woff') format('woff'), 
-				 font-path('glyphicons-halflings-regular.ttf') format('truetype'), 
-				 font-path('glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+		src: url('glyphicons-halflings-regular.eot');
+		src: url('glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), 
+				 url('glyphicons-halflings-regular.woff') format('woff'), 
+				 url('glyphicons-halflings-regular.ttf') format('truetype'), 
+				 url('glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 	}
 
 // .input-form

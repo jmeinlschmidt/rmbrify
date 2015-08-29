@@ -27,5 +27,7 @@ module Rmbrify
       g.test_framework      :rspec, fixture: true
       g.fixture_replacement :fabrication
     end
+
+    config.assets.precompile << /\.(?:svg|eot|woff|ttf)\z/
   end
 end
